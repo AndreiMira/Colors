@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pàgina Accessible - Preus</title>
+		<link rel="stylesheet" type="text/css" href="estils.css" />
+	</head>
+	<body>
+		<header>
+			<h1 aria-level="1" role="heading">Preus</h1>
+			<nav role="navigation" aria-label="Menú de navegació">
+				<ul>
+					<li><a href="brand.html" title="Tornar a la pàgina d'inici">Brand</a></li>
+					<li><a href="caracterisitques.html" title="Veure les característiques">Característiques</a></li>
+					<li><a href="preus.html" title="Veure els preus" aria-current="page" aria-label="Pàgina actual: Preus">Preus</a></li>
+					<li><a href="resultat.html" title="Veure els resultats captures">Captures Resultat</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form role="search" aria-label="Cerca">
+				<label for="search">Cerca:</label>
+				<input type="text" id="search" placeholder="Cerca" />
+				<button type="submit" aria-label="Cerca">Cerca</button>
+			</form>
+			<article>
+				<h1>Article title</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<section>
+					<h2>Article subtitle #1</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<figure>
+						<img src="img/imatge1.jpg" alt="Foto cascada" />
+						<figcaption>Foto de Kelly: <a href="https://www.pexels.com/es-es/foto/paisaje-agua-oceano-montana-19938261/" title="Enlace a la fuente de la imagen">Fuente</a></figcaption>
+					</figure>
+				</section>
+				<section>
+					<h2>Article subtitle #2</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<figure>
+						<img src="img/imatge2.jpg" alt="Foto gat" />
+						<figcaption>Foto de Kelly: <a href="https://www.pexels.com/es-es/foto/animal-mascota-mono-pelo-20140797/" title="Enlace a la fuente de la imagen">Fuente</a></figcaption>
+					</figure>
+				</section>
+			</article>
+		</main>
+		<footer>
+			<p>Drets reservats © 2024</p>
+		</footer>
+	</body>
+</html>
